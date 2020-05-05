@@ -18,9 +18,7 @@ Route::get('/tarefas', function () {
     echo '<h1>Tarefas para fazer</h1>';
     echo '<ul>';
     foreach($tarefas as $tarefa) {
-        echo '<li>'$tarefa'</li>';
+        echo "<li> $tarefa </li>";
     }
     echo '</ul>';
-
-    return view('welcome');
 });

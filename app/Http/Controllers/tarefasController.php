@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 class TarefasController 
 {
-    public function listaTarefas()
+    public function index()
     {
         $tarefas = [
             'Estudar Laravel',
